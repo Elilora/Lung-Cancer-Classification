@@ -1,6 +1,4 @@
 import os
-from sklearn.preprocessing import StandardScaler
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis as LDA
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -11,7 +9,6 @@ import matplotlib.pyplot as plt
 from skimage.transform import resize
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import roc_auc_score, roc_curve, plot_confusion_matrix, classification_report, confusion_matrix, accuracy_score
 import pickle
 
 target_arr = []
